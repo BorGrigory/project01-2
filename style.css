@@ -1,0 +1,217 @@
+body {
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+ 
+}
+.container1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%
+}
+.logo {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    margin-left: 0;
+}
+.mainimg {
+    transform: translate(-15%, 0%);
+    margin: 0 auto;
+}
+.svaz {
+    position: absolute; right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.num {
+    font-size: 20px;
+}
+.email {
+    font-size: 20px;
+}
+.nav {
+    width: auto;
+    height: 200px;
+    min-height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/animation.gif);
+}
+.nav-nas {
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    gap: 10px;
+    color: rgb(102, 211, 186);
+    
+}
+.eyepic{
+    transform: translate(-30%, +25%);
+    height: 30px;
+}
+.eye {
+    text-align: end;
+    color: white;
+}
+.mainfon {
+    background-size: cover;
+    background-position: center;
+    transform: translate(0%, -10%);
+    height: 100vh;
+    background-image: url(img/fon2.png);
+}
+.obz {
+    padding: 50px;
+    height: 500px;
+    margin: 10px;
+    background-color: rgba(201, 201, 201, 0.8);
+}
+.obzp {
+    line-height: 1.6;
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(46, 46, 46);
+}
+.obzpic {
+    padding-left: 10px;
+    float: right;
+}
+.fon4 {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    transform: translate(0%, -10%);
+    height: 100vh;
+    
+}
+.SUSLIKKK {
+    padding: 50px;
+    vertical-align: middle;
+    padding-left: 35px;
+    text-align: left;
+}
+.twofon {
+    height: auto;
+    width: auto;
+    background-image: url(img/fon4.png);
+    background-size: cover;
+    background-position: center;
+    transform: translate(0%, -15%);
+}
+.zakaz {
+    padding: 50px;
+    height: 500px;
+    margin: 50px;
+    background-color: rgba(201, 201, 201, 0.8);
+    transform: translate(250%, 0%);
+    position: absolute;
+}
+.inp {
+    height: 75px;
+    width: 400px;
+    text-align: right;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+.inp3::placeholder {
+    font-size: 30px;
+}
+.button1 {
+    font-size: 30px;
+}
+.threefon {
+    transform: translate(0%, -25%);
+    position: relative;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url(img/fon5.png);
+}
+.theotz {
+    background-color: rgba(201, 201, 201, 0.8);
+    transform: translate(0%, -10%);
+    margin: auto;
+    font-size: 35px;
+    height: 600px;
+    text-align: center;
+}
+.otzivi {
+    text-align: center;
+    transform: translate(0%, +10%);
+    color: black;
+    height: 600px;
+    width: 600px;
+}
+.fonfour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    transform: translate(0%, -25%);
+    background-image: url(img/fon6.png);
+    height: 100vh;
+    font-size: 40px;
+    padding: 25px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.vidtext {
+    height: 200px;
+    width: 600px;
+    font-size: 45px;
+    color: rgb(42, 85, 74);
+}
+.vid1 {
+transform: translate(-25%, 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid2.vid3 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid3 {
+    transform: translate(25%, 0);
+}
+.navcl {
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.contact-info div {
+    margin: 5px 0;
+}
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
